@@ -1,0 +1,26 @@
+body
+{
+    border:1px black solid;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+h1{
+    color: blue;
+}
+h3{
+    color: blue;
+    background-color: skyblue;
+}
+a{
+    color: blue;
+}
+img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+footer{
+    color: gray;
+    
+}
