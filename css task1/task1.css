@@ -1,0 +1,87 @@
+.headings
+{
+   color: white;
+   margin: auto;
+}
+.top
+{
+    border: 1px black solid;
+    border-radius: 10px;
+    background-image: url("fbanner1.jpg");
+    background-position: center;
+    height:"50px";
+    width:"100%";
+}
+#nav-bar{
+    width: 100%;
+    background-color: black;
+    text-align:center;
+
+}
+#nav-bar td{
+    padding: 10px;
+    border: 1px solid gray;
+    color: white;
+}
+a{
+    text-decoration: white;
+}
+a:visited{
+    color:white;
+}
+.pics1
+{
+    float: right;
+    border: 3px solid white;
+    margin: 15px;
+    padding: 10px;
+}
+.tb1{
+    float:left;
+    margin: 20px;
+    margin-left:50px;
+}
+#img1{
+    width:150px;
+    float:left;
+}
+h2{
+    background-color: tomato;
+
+}
+.tb2 img
+{
+ width: 100px;
+}
+.tb2,#tb5{
+    width: 30%;
+    float: right;
+    margin: 20px;
+    margin-right: 50px;
+}
+#img5{
+    float:right;
+    margin:20px;
+}
+.tb1,.tb2,#tb5{
+    background-color: lightgrey;
+    
+}
+footer{
+    color:white;
+    background-color: black;
+    width:100%;
+    text-align: center;
+    margin-top:45%;
+}
+.f1
+{
+    color: gray;
+    background-color: lightgray;
+    width="10px"
+    margin: 15
+    position: relative;
+}
+h1{
+    color: white;
+}
