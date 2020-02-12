@@ -1,0 +1,22 @@
+.flex
+{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.r
+{
+
+    display: table-row;
+    padding: 7px;
+}
+.cell
+{
+    display: table-cell;
+    border: 1px solid tomato;
+    text-align: center;
+    padding: 10px;
+}
