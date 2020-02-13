@@ -1,11 +1,28 @@
-@media query and (min-width:768px)
+@media(max-width:768px)
 {
+    .cap{
+        display: flex;
+        flex-direction: column;
     }
-   
-}
+    .f2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .btn
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    #lmore
+    {
+        top: 10px;
+    }
 }
 body{
-    /* width: 80%; */
+    margin: 0;
+    padding: 0;
 } 
 .header
 {
@@ -55,6 +72,7 @@ body{
  color: white;
  font-family: Arial, Helvetica, sans-serif;
  align-items: center;
+ justify-content: center;
 }
 .midcap h1, h3,p
 {
@@ -69,8 +87,12 @@ body{
     height: 30;
     margin: auto;
     color: white;
-    margin-left: 33%;
     outline: none;
+}
+.btn{
+    display: flex;
+    padding: 0 30%;
+    justify-content: space-around;
 }
 #lmore
 {
@@ -78,12 +100,11 @@ body{
     background-color:transparent;
     border: 1px solid rgba(228, 178, 16, 0.877);
     border-radius: 15px;
-    width: 200;
+    width: 150;
     height: 30;
-    margin: auto;
     color: white;
-    margin-left: 20px ;
     outline: none;
+    margin-right:20px;
 }
 input:hover{
     color: #ffa500;
@@ -92,25 +113,24 @@ input:hover{
 {
     color: #ffffff;
     text-align: left;
-    margin-left: 45%;
+    margin-left: 50%;
     margin-bottom: -30px;
 }
 .abdomen
 {
+    margin-top: 50px;
     display: flex;
     /* width: 100%; */
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-    text-align: center;
+    flex-wrap: wrap;
+   
  justify-content: space-around;
     
 }
 .content
-{
-    font-size: 1em;
-    padding: 20px;
+{   
+    text-align: center;
+    flex-basis: 300px;
+
 
 }
 .content h3{
@@ -169,12 +189,14 @@ hr{
 .tailflex
 {
     display: flex;
+    flex-wrap: wrap;
     /* text-align: center; */
     justify-content: space-around;
 }
 .des1
 {
     color: hsl(0, 1%, 25%);
+    flex-basis: 300px;
 }
 .tailflex b
 {
