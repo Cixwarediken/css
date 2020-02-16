@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif,Arial, Helvetica, sans-serif;
+}
+.cap
+{
+    display: flex;
+    justify-content: space-between;
+}
+#img1
+{
+    height: 50px;
+    width: 50px; 
+    justify-content: space-around;
+}
+.menu1 input
+{
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: 'Kaushan Script', cursive,Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px;
+}
+input:hover
+{
+    color: rgb(187, 35, 60);
+   
+}
+#sbutton
+{
+    background-color: rgb(223, 27, 59);
+    color: white;
+    border-radius: 7px;
+    font-family:'Lobster', cursive,Arial, Helvetica, sans-serif;
+    width: 150;
+    height: 30;
+    margin: auto;
+    outline: none;
+}
+.head
+{
+    background-image: url("backimg.jpg");
+}
+.con1
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: -12px;
+    color: white;
+}
+
+.con1 h1,h3,p
+{
+ text-align: center;
+ margin: 10px;
+ padding: 5px;
+ font-family:'EB Garamond', serif,Arial, Helvetica, sans-serif;
+}
+.con2
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom: 0px;
+}
+.content
+{   
+    text-align: center;
+    flex-basis: 200px;
+    background-color: rgb(233, 220, 220);
+}
+#c2
+{
+    text-align: center;
+    background-color: rgb(170, 156, 156);
+}
+.content h3{
+    color: #080707;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#imgs1
+{
+    height: 50px;
+     width: 50px; 
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+}
+.neck{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:auto 200px;
+}
+.nc1 img,.nc2 img{
+    height:250px;
+    width:300px;
+    margin-right: 40px;
+}
+.nc1,.nc2{
+    display:flex;
+    justify-content: space-between;
+    text-align: left;
+    /* padding:auto 20%; */
+}
+.nc1 p ,.nc2 p{
+    text-align: justify;
+}
+
+.box2,.box1,.box3,.box4{
+    width:300px;
+    overflow: hidden;
+    margin:auto 20px;
+}
+.box-2 input, .box-3 input
+{
+    margin: 10px;
+}
+.chest
+{
+    background-image: url("blurb.jpg");
+    display: flex;
+    color: white;
+}
+.sec1{
+ display: flex;
+ flex-direction: column;
+ flex:1;
+}
+.aa{
+    display: flex;
+}
+.aa div h1,.bb div h1{
+    position: absolute;
+    margin: 0 120px;
+}
+.bb{
+    display: flex;
+}
+.sec2{
+    flex:1;
+}
+.sec1 h1{
+    color: rgb(156, 156, 156);
+}
+.part2
+{
+    display: flex;
+    flex-basis: 10px;
+    justify-content: center;
+}
+.part2 img{
+    height: 150px;
+    width: 150px;
+}
+.per1,.per2,.per3
+{
+    justify-content: space-around;
+    align-items:center ;
+    width:250px;
+}
+.belt{
+    background-image: url(back2img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 250px;
+}
+.cbelt{
+    position: relative;
+    top:80px;
+    background-color: ivory;
+}
+/* .belt
+{
+    height: 300px;
+    text-align: center;
+}
+.cbelt
+{
+    position:absolute;
+    background-color: lightgrey;
+    display:block;
+}
+.cbelt h1{
+    margin: 0px;
+} */
+.foot
+{
+background-color:white ;
+}
+.foot h1
+{
+    margin-top: 0px;
+}
+.foot1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.c1,.c2,.c3{
+    background-color: rgb(212, 212, 212);
+    justify-content: space-around;
+    align-items:center ;
+    width:350px;
+}
+.c1 input, .c2 input , .c3 input{
+    position: absolute;
+}
+#sbutton1
+{
+    background-color: rgb(223, 27, 59);
+    color: white;
+    border-radius: 7px;
+    font-family:'Lobster', cursive,Arial, Helvetica, sans-serif;
+    outline: none;
+    position: inherit;
+}
+.foot img
+{
+    height: 170px;
+    width: 170px;
+}
+.tail
+{
+    background-image: url("nimg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.thead
+{
+    text-align: left;
+    margin-left: 10%;
+}
+.tbody
+{
+    display: flex;
+}
+.tiphead img
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.tipbody
+{
+    display: flex;
+}
+.tipbody .tb1,.tb2,.tb3
+{
+ flex: 1;
+}
+.tipbody img
+{
+ width: 100px ;
+ height: 100px;
+}
+hr{
+    width: 50%;
+}
+#lin
+{
+ border: none;
+ border-bottom:1px solid black;
+ width:200px;
+ margin-left:10px;
+ font-size: medium;
+}
+form input:focus{
+outline:none;
+font-size: 1.3em;
+}
+form{
+    line-height: 50px;
+}
+textarea{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
